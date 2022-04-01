@@ -1,10 +1,12 @@
+import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import React from 'react';
-import {View, Text} from 'react-native';
+import {View, Text, Button} from 'react-native';
+import Profile from '../ProfileScreen';
 
 const index = () => {
   return (
     <View>
-      <Text style={{fontSize: 24, alignSelf: 'center'}}>Home Sweet Home</Text>
+      <Text>Home Jawoooooooooooooooooooone</Text>
     </View>
   );
 };
